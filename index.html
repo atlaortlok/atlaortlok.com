@@ -1,6 +1,10 @@
 
     <a href="tutorial1.html">Simple cat</a> 
-
+    <form action="https://www.google.com/search" method="get">
+        <input type="text" name="q" placeholder="Search..." required>
+        <button type="submit">Search</button>
+      </form>
+      
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,3 +16,28 @@
     <p>Hi, welcome to atlaortlok's art tutorials. I will try to make new tutorials every 1-2 weeks</p>
 </body>
 </html>
+<style>
+    form {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+    }
+    input[type="text"] {
+      width: 70%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      margin-right: 5px;
+    }
+    button {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #f0f0f0;
+    }
+  </style>
+  
