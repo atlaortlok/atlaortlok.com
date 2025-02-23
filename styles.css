@@ -3,8 +3,8 @@ body {
    background-color: rgb(244, 245, 245); 
 }
 button {
-    background-color: red;
-    color: black;
+    background-color: red !important;
+    color: black !important;
     padding: 10px 20px;
     border: none;
     cursor: pointer;
@@ -12,6 +12,6 @@ button {
     border-radius: 5px;
 }
 button:hover {
-    background-color:darkgray
-    color white;
+    background-color:darkgray !important;
+    color: white; ;
 }
