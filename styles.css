@@ -2,3 +2,15 @@ body {
     margin: 10%;
    background-color: aqua; 
 }
+button {
+    background-color: aqua;
+    color: aliceblue;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: cadetblue;
+}
